@@ -1,0 +1,6 @@
+{
+	"debounce-extensionname": "Debounce",
+	"debounce-desc": "Block bad email registrations",
+	"debounce-config-apikey": "Debounce API Key",
+	"debounce-unconfigured": "The Debounce extension is not fully configured, please contact the system administrator"
+}

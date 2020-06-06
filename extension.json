@@ -1,0 +1,38 @@
+{
+	"name": "Debounce",
+	"namemsg": "debounce-extensionname",
+	"version": "1.0.0",
+	"author": [
+		"Ryan Schmidt"
+	],
+	"url": "https://mwusers.org",
+	"descriptionmsg": "debounce-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "antispam",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"config": {
+	  "DebounceApiKey": {
+		  "value": null,
+		  "path": false,
+		  "description": "Debounce API Key",
+		  "descriptionmsg": "debounce-config-apikey",
+		  "public": false
+	  }
+	},
+	"MessagesDirs": {
+	  "Debounce": [
+		  "i18n"
+	  ]
+	},
+	"Hooks": {
+	  "isValidEmailAddr": [
+		  "Debounce::isValidEmailAddr"
+	  ]
+	},
+	"AutoloadClasses": {
+		"Debounce": "Debounce.php"
+	},
+	"manifest_version": 2
+}
