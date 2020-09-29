@@ -47,14 +47,14 @@ class Debounce {
 		}
 
 		// on API failure, soft fail (allow registration to proceed)
-		$data = json_decode( $res );
+		$data = json_decode( $res, true );
 		$result = null;
-		if ( $free ) {
+		if ( $free && isset( $data['disposable'] ) ) {
 			// we want a true $result to mean "this email is valid"
 			// which means it is *not* disposable
-			$result = $data->disposable === "false";
-		} elseif ( $data->success ) {
-			$result = (bool)$data->debounce->send_transactional;
+			$result = $data['disposable'] === 'false';
+		} elseif ( isset( $data['success'] ) && $data['success'] === '1' ) {
+			$result = $data['debounce']['send_transactional'] === '1';
 		}
 
 		// cache result for 1 week; store as int because cache->get returns
