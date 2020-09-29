@@ -37,10 +37,6 @@ class Debounce {
 
 		$http = $services->getHttpRequestFactory();
 		if ( $free ) {
-			$res = $http->get( 'https://disposable.debounce.io/?' . wfArrayToCgi( [
-				'email' => $addr
-			] ) );
-		} else {
 			if ( $private ) {
 				// obscure email address before sending to debounce;
 				// effectively only domain portion is sent
@@ -48,7 +44,11 @@ class Debounce {
 				$parts[0] = 'example';
 				$addr = implode( '@', $parts );
 			}
-
+			
+			$res = $http->get( 'https://disposable.debounce.io/?' . wfArrayToCgi( [
+				'email' => $addr
+			] ) );
+		} else {
 			$res = $http->get( 'https://api.debounce.io/v1/?' . wfArrayToCgi( [
 				'api' => $apiKey,
 				'email' => $addr
