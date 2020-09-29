@@ -16,6 +16,7 @@ class Debounce {
 		$config = $services->getMainConfig();
 		$apiKey = $config->get( 'DebounceApiKey' );
 		$free = $config->get( 'DebounceFree' );
+		$private = $config->get( 'DebouncePrivate' );
 		if ( !$free && !$apiKey ) {
 			throw new MWException( 'debounce-unconfigured' );
 		}
@@ -40,6 +41,14 @@ class Debounce {
 				'email' => $addr
 			] ) );
 		} else {
+			if ( $private ) {
+				// obscure email address before sending to debounce;
+				// effectively only domain portion is sent
+				$parts = explode( '@', $addr );
+				$parts[0] = 'example';
+				$addr = implode( '@', $parts );
+			}
+
 			$res = $http->get( 'https://api.debounce.io/v1/?' . wfArrayToCgi( [
 				'api' => $apiKey,
 				'email' => $addr

@@ -8,5 +8,6 @@
 	"debounce-desc": "Block bad email registrations",
 	"debounce-config-apikey": "Debounce API Key, if using the paid email validation API",
 	"debounce-config-free": "If true, uses the free disposable email API. If false, uses the paid email validation API",
+	"debounce-config-private": "If true and using the free disposable email API, obscure the user's email and only send the domain",
 	"debounce-unconfigured": "The Debounce extension is not fully configured, please contact the system administrator"
 }
