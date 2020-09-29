@@ -15,7 +15,8 @@ class Debounce {
 		$services = MediaWikiServices::getInstance();
 		$config = $services->getMainConfig();
 		$apiKey = $config->get( 'DebounceApiKey' );
-		if ( !$apiKey ) {
+		$free = $config->get( 'DebounceFree' );
+		if ( !$free && !$apiKey ) {
 			throw new MWException( 'debounce-unconfigured' );
 		}
 
@@ -34,18 +35,32 @@ class Debounce {
 		}
 
 		$http = $services->getHttpRequestFactory();
-		$res = $http->get( 'https://api.debounce.io/v1/?' . wfArrayToCgi( [
-			'api' => $apiKey,
-			'email' => $addr
-		] ) );
+		if ( $free ) {
+			$res = $http->get( 'https://disposable.debounce.io/?' . wfArrayToCgi( [
+				'email' => $addr
+			] ) );
+		} else {
+			$res = $http->get( 'https://api.debounce.io/v1/?' . wfArrayToCgi( [
+				'api' => $apiKey,
+				'email' => $addr
+			] ) );
+		}
 
 		// on API failure, soft fail (allow registration to proceed)
 		$data = json_decode( $res );
-		if ( $data->success ) {
+		$result = null;
+		if ( $free ) {
+			// we want a true $result to mean "this email is valid"
+			// which means it is *not* disposable
+			$result = $data->disposable === "false";
+		} elseif ( $data->success ) {
 			$result = (bool)$data->debounce->send_transactional;
-			// cache result for 1 week; store as int because cache->get returns
-			// bool false on key not found and we need to distinguish between not found
-			// and a cached negative result.
+		}
+
+		// cache result for 1 week; store as int because cache->get returns
+		// bool false on key not found and we need to distinguish between not found
+		// and a cached negative result.
+		if ( $result !== null ) {
 			$cache->set( $cacheKey, (int)$result, 60 * 60 * 24 * 7 );
 			return $result;
 		}
