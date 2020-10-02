@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nike"
+		]
+	},
+	"debounce-desc": "Estä rekisteröinnit huonoista sähköpostiosoitteista",
+	"debounce-unconfigured": "Debounce-laajennoksen asetuksia ei ole tehty oikein. Ota yhteyttä järjestelmäylläpitäjään."
+}
