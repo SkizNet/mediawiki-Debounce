@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Zafar Shamsiddinov"
+		]
+	},
+	"debounce-desc": "Nosoz e-pochtani qayd etishni bloklamoq",
+	"debounce-config-free": "Agar rost bo‘lsa, bepul bir martalik elektron pochta API-dan foydalanadi. Agar noto‘g‘ri bo‘lsa, pullik elektron pochta orqali tasdiqlash API-dan foydalanadi",
+	"debounce-unconfigured": "«Debounce» kengaytmasi to‘liq moslanmagan, iltimos tizim ma’muri bilan bog‘laning"
+}

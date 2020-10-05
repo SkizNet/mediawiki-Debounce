@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"MuratTheTurkish"
+		]
+	},
+	"debounce-extensionname": "Debounce",
+	"debounce-desc": "Kötü e-posta kayıtlarını engelleyin",
+	"debounce-config-apikey": "Ücretli e-posta doğrulama API'sini kullanıyorsanız API Anahtarını geri alın",
+	"debounce-config-free": "true ise, ücretsiz tek kullanımlık e-posta API'sini kullanır. false ise, ücretli e-posta doğrulama API'sini kullanır",
+	"debounce-config-private": "true ise ve ücretsiz tek kullanımlık e-posta API'sini kullanıyorsanız, kullanıcının e-postasını gizleyin ve yalnızca alanı gönderin",
+	"debounce-unconfigured": "Debounce uzantısı tam olarak yapılandırılmamış, lütfen sistem hizmetlisine iletişime geçin"
+}

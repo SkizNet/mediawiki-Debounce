@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"debounce-extensionname": "Debounce",
+	"debounce-desc": "封鎖惡意電子郵件設置",
+	"debounce-config-apikey": "Debounce API 金鑰，如果是使用付費電子郵件驗證 API 的情況",
+	"debounce-config-free": "若為 true，使用免費一次性電子郵件 API；若為 false，使用付費電子郵件驗證 API",
+	"debounce-config-private": "若為 true 且使用免費一次性電子郵件 API，遮蔽使用者的電子郵件且僅發送網域",
+	"debounce-unconfigured": "Debounce 擴充尚未設置完整，請聯絡系統管理員"
+}

@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hanna Tardos"
+		]
+	},
+	"debounce-desc": "Helytelen e-mail regisztrációk blokkolása",
+	"debounce-unconfigured": "A Debounce kiterjesztés még nincs tökéletesen konfigurálva. Kérjük, vedd fel a kapcsolatot az adminisztrátorral."
+}

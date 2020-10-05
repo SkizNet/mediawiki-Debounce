@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardo Addad de Oliveira"
+		]
+	},
+	"debounce-extensionname": "Debounce",
+	"debounce-desc": "Bloquear registros de e-mail incorretos",
+	"debounce-config-apikey": "Debounce API Key, se estiver usando a API de validação de e-mail pago",
+	"debounce-config-free": "Se true, usa a API de e-mail descartável gratuita. Se for falso, usa a API de validação de e-mail pago",
+	"debounce-config-private": "Se true e usando a API de e-mail descartável grátis, oculte o e-mail do usuário e envie apenas o domínio",
+	"debounce-unconfigured": "A extensão Debounce não está totalmente configurada, entre em contato com o administrador do sistema"
+}
