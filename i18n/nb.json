@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"debounce-extensionname": "Debounce",
+	"debounce-desc": "Blokker registreringer med ugyldige eposter",
+	"debounce-config-apikey": "Debounce-API-nøkkel, hvis det betalte epostvaliderings-API-et brukes",
+	"debounce-config-free": "Hvis denne er true brukes det fritt tilgjengelige epost-API-et. Hvis den er false brukes det betalte epostvaliderings-API-et",
+	"debounce-config-private": "Hvis denne er true og det fritt tilgjengelige epost-API-et brukes skjules brukerens epost, og kun domenet sendes",
+	"debounce-unconfigured": "Debounce-utvidelsen er ikke satt opp fullstendig, kontakt systemadministratoren"
+}
