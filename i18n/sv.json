@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sabelöga"
+		]
+	},
+	"debounce-extensionname": "Debounce",
+	"debounce-desc": "Blockera dåliga e-postregistreringar",
+	"debounce-config-apikey": "Debounce-API-nyckel, om den använder den betalda e-postvaliderings-API:n",
+	"debounce-config-free": "Stämmer det, använder den gratis utbytbara e-post-API:er. Gör det inte det, använder den betala e-postvaliderings-API:n"
+}
