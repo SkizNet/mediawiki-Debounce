@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Verdy p"
 		]
 	},
-	"debounce-extensionname": "Rebondir",
+	"debounce-extensionname": "Antirebond",
 	"debounce-desc": "Bloquer les enregistrements de mauvais courrriels",
-	"debounce-config-apikey": "Clé de l’API de rebond, si utilisation de l’API de validation du courriel payante.",
+	"debounce-config-apikey": "Clé de l’API antirebond, si utilisation de l’API de validation du courriel payante.",
 	"debounce-config-free": "Si vrai, utilise l’API de courriel librement disponible. Si faux, utilise l’API de validation de courriel payante.",
 	"debounce-config-private": "Si vrai et utilisation de l’API de courriel en libre disposition, masquer l’adresse de messagerie de l’utilisateur et envoyer uniquement le domaine.",
-	"debounce-unconfigured": "L’extension Rebond n’est pas complètement configurée, veuillez contacter l’administrateur système."
+	"debounce-unconfigured": "L’extension Antirebond n’est pas complètement configurée, veuillez contacter l’administrateur système."
 }
