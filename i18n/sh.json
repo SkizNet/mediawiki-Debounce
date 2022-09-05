@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"debounce-extensionname": "Debounce",
+	"debounce-desc": "Blokiraj loše registracije e-pošte",
+	"debounce-config-apikey": "Priložni ključ Debounce, ako korisit se plaćeni prilog za provjeru valjanosti e-pošte",
+	"debounce-config-free": "Ako je true, koristi besplatni jednokratni prilog za e-poštu. Ako je false, koristi plaćeni prilog za provjeru valjanosti.",
+	"debounce-config-private": "Ako je true, i koristi besplatni jednokratni prilog za e-poštu, sakrijte korisničku e-poštu i pošaljite samo domenu.",
+	"debounce-unconfigured": "Proširenje Debounce nije u potpunosti konfigurirano. Obratite se administratoru sustava"
+}
