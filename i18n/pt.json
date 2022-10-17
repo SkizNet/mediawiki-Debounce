@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"debounce-extensionname": "Debounce",
+	"debounce-desc": "Bloquear registos inválidos de correio eletrónico",
+	"debounce-config-apikey": "Chave da API Debounce, se estiver a ser usada a API paga de validação de correios eletrónicos",
+	"debounce-config-free": "Se verdadeiro, usa a API gratuita de deteção de domínios descartáveis de correio eletrónico. Se falso, usa a API paga de validação de correios eletrónicos",
+	"debounce-config-private": "Se verdadeiro e estiver a ser usada a API gratuita de deteção de domínios descartáveis de correio eletrónico, obscurecer o correio eletrónico do utilizador e enviar só o domínio",
+	"debounce-unconfigured": "A extensão Debounce não está totalmente configurada. Contacte um administrador do sistema, por favor"
+}
