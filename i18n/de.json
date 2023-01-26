@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Justman10000"
+		]
+	},
+	"debounce-extensionname": "Entprellung",
+	"debounce-desc": "Schlechte E-Mail-Anmeldungen blockieren",
+	"debounce-config-apikey": "API-Schlüssel entkoppeln, wenn du die kostenpflichtige E-Mail-Validierungs-API verwendest",
+	"debounce-config-free": "Wenn true, wird die kostenlose Wegwerf-API für E-Mails verwendet. Wenn false, wird die kostenpflichtige E-Mail-Validierungs-API verwendet.",
+	"debounce-config-private": "Wenn true und die kostenlose Wegwerf-E-Mail-API verwendet wird, wird die E-Mail des Nutzers verborgen und nur die Domain gesendet",
+	"debounce-unconfigured": "Die Debounce-Erweiterung ist nicht vollständig konfiguriert, bitte kontaktiere den Systemadministrator"
+}
