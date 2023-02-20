@@ -4,7 +4,6 @@
 			"Bjankuloski06"
 		]
 	},
-	"debounce-extensionname": "Debounce",
 	"debounce-desc": "Забранува пријавување на неиспавни е-пошти",
 	"debounce-config-apikey": "Приложен клуч на Debounce, ако се корисит наплатен прилог за заверка на е-пошта",
 	"debounce-config-free": "Ако е true, користи бесплатен еднократен прилог за е-пошта. Ако е false, користи наплатен прилог за заверка на истата.",

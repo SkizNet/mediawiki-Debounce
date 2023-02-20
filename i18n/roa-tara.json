@@ -4,7 +4,6 @@
 			"Joetaras"
 		]
 	},
-	"debounce-extensionname": "Debounce",
 	"debounce-desc": "Blocche le reggistraziune de email cattive",
 	"debounce-config-apikey": "Chiave API de Debounce, ce ste ause l'API d'a validazione de l'email pajate",
 	"debounce-config-free": "Ce vere ause l'API de l'email aggratis. Ce fause, ause l'API de validazione de l'email a pajamende",

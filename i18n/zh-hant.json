@@ -4,7 +4,6 @@
 			"Kly"
 		]
 	},
-	"debounce-extensionname": "Debounce",
 	"debounce-desc": "封鎖惡意電子郵件設置",
 	"debounce-config-apikey": "Debounce API 金鑰，如果是使用付費電子郵件驗證 API 的情況",
 	"debounce-config-free": "若為 true，使用免費一次性電子郵件 API；若為 false，使用付費電子郵件驗證 API",

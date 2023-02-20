@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Ryan Schmidt"
 		]
 	},
 	"debounce-extensionname": "{{name}}",
 	"debounce-desc": "{{desc|name=Debounce|url=https://www.mediawiki.org/wiki/Extension:Debounce}}",
-	"debounce-config-apikey": "{{optional}} Description of the configuration variable $wgDebounceApiKey. This message is not exposed to users.",
+	"debounce-config-apikey": "Description of the configuration variable $wgDebounceApiKey. This message is not exposed to users.",
 	"debounce-config-free": "{{optional}} Description of the configuration variable $wgDebounceFree. This message is not exposed to users.",
 	"debounce-config-private": "{{optional}} Description of the configuration variable $wgDebouncePrivate. This message is not exposed to users.",
-	"debounce-unconfigured": "{{optional}} Error message displayed when the extension has not yet been configured. This message is only exposed to users if the system administrator has configured $wgShowExceptionDetails = true."
+	"debounce-unconfigured": "Error message displayed when the extension has not yet been configured. This message is only exposed to users if the system administrator has configured $wgShowExceptionDetails = true."
 }

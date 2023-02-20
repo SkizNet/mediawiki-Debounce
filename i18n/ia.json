@@ -4,7 +4,6 @@
 			"McDutchie"
 		]
 	},
-	"debounce-extensionname": "Debounce",
 	"debounce-desc": "Blocar le inscriptiones de mal adresse de e-mail",
 	"debounce-config-apikey": "Clave del API Debounce, si se usa le API de validation de e-mail pagate",
 	"debounce-config-free": "Si ver, usa le API de e-mail jectabile gratuite. Si false, usa le API de validation de e-mail pagate.",

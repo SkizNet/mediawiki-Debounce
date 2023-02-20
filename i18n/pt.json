@@ -4,7 +4,6 @@
 			"Hamilton Abreu"
 		]
 	},
-	"debounce-extensionname": "Debounce",
 	"debounce-desc": "Bloquear registos inválidos de correio eletrónico",
 	"debounce-config-apikey": "Chave da API Debounce, se estiver a ser usada a API paga de validação de correios eletrónicos",
 	"debounce-config-free": "Se verdadeiro, usa a API gratuita de deteção de domínios descartáveis de correio eletrónico. Se falso, usa a API paga de validação de correios eletrónicos",

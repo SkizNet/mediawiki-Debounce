@@ -4,7 +4,6 @@
 			"Eleassar"
 		]
 	},
-	"debounce-extensionname": "Debounce",
 	"debounce-desc": "Blokirajte slabe e-poštne registracije",
 	"debounce-config-apikey": "API-ključ Debounce, če uporablja plačljivi API za potrditev e-poštnega naslova",
 	"debounce-config-free": "Če je »true« (res), uporablja prosti API za enkratni e-poštni naslov. Če je »false« (ni res), uporablja plačljivi API za potrditev e-poštnega naslova.",

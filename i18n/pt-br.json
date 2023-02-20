@@ -5,7 +5,6 @@
 			"Eduardoaddad"
 		]
 	},
-	"debounce-extensionname": "Debounce",
 	"debounce-desc": "Bloquear registros de e-mail incorretos",
 	"debounce-config-apikey": "Debounce API Key, se estiver usando a API de validação de e-mail pago",
 	"debounce-config-free": "Se true, usa a API de e-mail descartável gratuita. Se for falso, usa a API de validação de e-mail pago",

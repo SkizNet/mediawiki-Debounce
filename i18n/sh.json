@@ -4,7 +4,6 @@
 			"Vlad5250"
 		]
 	},
-	"debounce-extensionname": "Debounce",
 	"debounce-desc": "Blokiraj loše registracije e-pošte",
 	"debounce-config-apikey": "Priložni ključ Debounce, ako korisit se plaćeni prilog za provjeru valjanosti e-pošte",
 	"debounce-config-free": "Ako je true, koristi besplatni jednokratni prilog za e-poštu. Ako je false, koristi plaćeni prilog za provjeru valjanosti.",
