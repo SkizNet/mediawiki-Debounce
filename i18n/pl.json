@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail"
+		]
+	},
+	"debounce-desc": "Blokuje próby rejestracji z użyciem nieprawidłowych adresów e-mail",
+	"debounce-config-apikey": "Klucz API usługi Debounce w przypadku używania płatnego API do walidacji adresów e-mail",
+	"debounce-config-free": "Jeśli wartość to true, użyta zostanie darmowa usługa wykrywania jednorazowych adresów e-mail. Jeśli wartość to false, użyte zostanie płatne API walidacji adresów.",
+	"debounce-config-private": "Jeśli wartość to true, w przypadku używania darmowej usługi API, ukrywa adres e-mail użytkownika i przesyła jedynie domenę",
+	"debounce-unconfigured": "Rozszerzenie Debounce nie zostało w pełni skonfigurowane, skontaktuj się z administratorem serwisu."
+}
