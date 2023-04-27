@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"debounce-desc": "Blokuoti blogas el. pašto registracijas",
+	"debounce-unconfigured": "Debounce plėtinys nėra visiškai sukonfigūruotas, susisiekite su sistemos administratoriumi"
+}
