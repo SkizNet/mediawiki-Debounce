@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"StarHeart",
+			"沈澄心"
+		]
+	},
+	"debounce-desc": "禁止不正常的邮箱注册",
+	"debounce-config-apikey": "Debounce API密钥，如果是使用付费电子邮件验证API的情况"
+}
