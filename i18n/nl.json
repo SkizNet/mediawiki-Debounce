@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"debounce-desc": "Inschrijving met verkeerd e-mailadres blokkeren",
+	"debounce-config-apikey": "API-sleutel van Debounce, bij gebruik van de betaalde API voor e-mailvalidering",
+	"debounce-config-free": "Als dit op waar is ingesteld, wordt de gratis weggooi-e-mail-API gebruikt. Zo niet, dan wordt de betaalde e-mail-validatie-API gebruikt.",
+	"debounce-config-private": "Als dit op waar is ingesteld en de gratis weggooi-e-mail-API wordt gebruikt, dan wordt het e-mailadres van de gebruiker verborgen en alleen het domein verzonden.",
+	"debounce-unconfigured": "De uitbreiding Debounce is niet volledig ingesteld. Neem contact op met de systeembeheerder."
+}
