@@ -6,5 +6,8 @@
 		]
 	},
 	"debounce-desc": "禁止不正常的邮箱注册",
-	"debounce-config-apikey": "Debounce API密钥，如果是使用付费电子邮件验证API的情况"
+	"debounce-config-apikey": "Debounce API密钥，如果是使用付费电子邮件验证API的情况",
+	"debounce-config-free": "如果为true，则使用免费一次性电子邮件API。如果为false，则使用付费电子邮件验证API",
+	"debounce-config-private": "如果为true并使用免费一次性电子邮件API，则隐藏用户的电子邮件并仅发送域名",
+	"debounce-unconfigured": "Debounce扩展未完全配置，请联系系统管理员"
 }
