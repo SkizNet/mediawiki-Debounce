@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"debounce-desc": "Bloquear os rexistros de correos electrónicos maliciosos",
+	"debounce-config-apikey": "Clave da API de Debounce, se se usa a API de validación de correo electrónico de pago",
+	"debounce-config-free": "Se é verdadeiro, úsase a API de correo electrónico desbotable e gratuíta. Se é falso, úsase a API de validación de correo electrónico de pago.",
+	"debounce-config-private": "Se é verdadeiro e se usa a API de correo electrónico desbotable e gratuíta, oculta o correo electrónico do usuario e envía só o dominio",
+	"debounce-unconfigured": "A extensión Debounce non está completamente configurada. Ponte en contacto co administrador do sistema."
+}
