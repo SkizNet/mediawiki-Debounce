@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sabelöga"
+			"Sabelöga",
+			"Stefan2255"
 		]
 	},
 	"debounce-desc": "Blockera dåliga e-postregistreringar",
 	"debounce-config-apikey": "Debounce-API-nyckel, om den använder den betalda e-postvaliderings-API:n",
-	"debounce-config-free": "Stämmer det, använder den gratis utbytbara e-post-API:er. Gör det inte det, använder den betala e-postvaliderings-API:n"
+	"debounce-config-free": "Stämmer det, använder den gratis utbytbara e-post-API:er. Gör det inte det, använder den betala e-postvaliderings-API:n",
+	"debounce-config-private": "Om sant och det kostnadsfria engångs-e-post-API:et används, dölj användarens e-postadress och skicka endast domänen",
+	"debounce-unconfigured": "Debounce-tillägget är inte helt konfigurerat, vänligen kontakta systemadministratören."
 }
