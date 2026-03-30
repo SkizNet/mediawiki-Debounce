@@ -6,8 +6,8 @@
 		]
 	},
 	"debounce-desc": "Blokiraj loše registracije e-pošte",
-	"debounce-config-apikey": "Priložni ključ Debounce, ako korisit se plaćeni prilog za provjeru ispravnosti e-pošte",
-	"debounce-config-free": "Ako je true, koristi besplatni jednokratni prilog za e-poštu. Ako je false, koristi plaćeni prilog za provjeru ispravnosti.",
-	"debounce-config-private": "Ako je true, i koristi besplatni jednokratni prilog za e-poštu, sakrijte korisničku e-poštu i pošaljite samo domenu.",
+	"debounce-config-apikey": "API ključ Debounce, ako korisit se plaćeni API za provjeru ispravnosti e-pošte",
+	"debounce-config-free": "Ako je true, koristi besplatni jednokratni API za e-poštu. Ako je false, koristi plaćeni API za provjeru ispravnosti.",
+	"debounce-config-private": "Ako je true, i koristi besplatni jednokratni API za e-poštu, sakrijte korisničku e-poštu i pošaljite samo domenu.",
 	"debounce-unconfigured": "Proširenje Debounce nije u potpunosti konfigurirano. Obratite se administratoru sustava"
 }
