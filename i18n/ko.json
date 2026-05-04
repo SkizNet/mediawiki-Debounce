@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tensama0415"
+		]
+	},
+	"debounce-desc": "악성 이메일 등록을 차단합니다",
+	"debounce-config-apikey": "유료 이메일 인증 API를 사용하는 경우의 Debounce API 키",
+	"debounce-config-free": "true이면 무료 일회용 이메일 API를 사용하고, false이면 유료 이메일 유효성 검사 API를 사용합니다",
+	"debounce-config-private": "true이고 무료 일회용 이메일 API를 사용하는 경우, 사용자의 이메일은 가리고 도메인만 전송합니다",
+	"debounce-unconfigured": "Debounce 확장 프로그램이 완전히 구성되지 않았습니다. 시스템 관리자에게 문의하세요"
+}
